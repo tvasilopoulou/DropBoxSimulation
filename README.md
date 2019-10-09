@@ -13,6 +13,7 @@ Execution commands for bash: ./create_infiles.sh 1_input 10 5 2
 							 cat log_file1 log_file2 | ./get_stats.sh
 
 1. Bash Scripts
+
 (i). create_infiles.sh
 This script starts by checking if the requested file already exists, and if so, aborts. Next, the 
 given values are inspected in case of NaN values. After that, following the dfs approach as
